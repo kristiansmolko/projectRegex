@@ -25,4 +25,8 @@ public class NoRegex {
                 return false;
         return true;
     }
+
+    public boolean isThisTrue(boolean bol){
+        return bol;
+    }
 }
