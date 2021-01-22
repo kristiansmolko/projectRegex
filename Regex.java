@@ -3,7 +3,7 @@ import java.util.regex.Pattern;
 
 public class Regex {
 
-    public boolean checkValue(String text){
+    public static boolean checkValue(String text){
         if (text == null)
             return false;
         Pattern pattern = Pattern.compile("^(([1-9]\\d+|\\d)[\\.,]([1-9]\\d|\\d[1-9])|([1-9]\\d+))$|^[0]$");
